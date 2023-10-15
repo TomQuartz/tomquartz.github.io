@@ -1,2 +1,2 @@
-This project includes files for my homepage. It uses bootstrap framework.
-
+### Sheng Qi's homepage
+https://tomquartz.github.io/
