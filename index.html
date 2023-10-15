@@ -16,6 +16,39 @@
   <!-- Custom styles for this template -->
   <link href="style/starter-template.css" rel="stylesheet">
 
+  <!-- Font Awesome -->
+  <link href="style/fontawesome-free-6.4.2-web/css/all.css" rel="stylesheet">
+
+  <!-- Academic icons -->
+  <link href="style/academicons-1.9.4/css/academicons.css" rel="stylesheet">
+
+  <!-- Custom icon color -->
+  <style>
+    .normal {
+      font-weight: 400;
+    }
+
+    .semi-bold {
+      font-weight: 500;
+    }
+
+    .fa-github {
+      color: rgb(30, 48, 80);
+    }
+
+    .fa-envelope {
+      color: rgb(30, 48, 80);
+    }
+
+    .ai-google-scholar-square {
+      color: rgb(30, 48, 80);
+    }
+
+    .ai-cv {
+      color: rgb(30, 48, 80);
+    }
+  </style>
+
   <!-- Just for debugging purposes. Don't actually copy this line! -->
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -70,8 +103,15 @@
           <p class="lead">
             <!-- Email: shengqi2018 (at) pku (dot) edu (dot) cn<br> -->
             <!-- <a href="./CV.pdf">CV</a> &nbsp/&nbsp -->
-            <a href="mailto:shengqi2018@pku.edu.cn">Email</a> &nbsp/&nbsp
-            <a href="https://github.com/TomQuartz">GitHub</a><br>
+            <a href="mailto:shengqi2018@pku.edu.cn">
+              <i class="fa-solid fa-envelope"></i></a> &nbsp
+            <a href="https://github.com/TomQuartz">
+              <i class="fa-brands fa-github"></i></a> &nbsp
+            <a href="https://scholar.google.com/citations?user=LuLfGmwAAAAJ&hl=en">
+              <i class="ai ai-google-scholar-square"></i></a> &nbsp
+            <a href="files/SOSP23_Halfmoon_extended.pdf">
+              <i class="ai ai-cv"></i></a> &nbsp
+            <br>
           </p>
         </div>
 
@@ -124,17 +164,56 @@
 
         <div class="col-md-10">
           <hr>
-          <h3>Research</h3>
-          <!-- <p class="lead"><small> -->
+          <h3>Publications</h3>
+          <br>
+          <p class="lead">
+            <b class="semi-bold">Halfmoon: Log-Optimal Fault-tolerant Stateful Serverless Computing</b><br>
+            <small>
+              <b class="normal">Sheng Qi</b>, Xuanzhe Liu, Xin Jin<br>
+              ACM SOSP, 2023<br>
+              [<a href="">PDF</a> | <a href="files/SOSP23_Halfmoon_extended.pdf">Extended</a>]
+              [<a href="">Slides</a>]
+              [<a href="https://github.com/pkusys/Halfmoon-bench">Code</a>]
+              [<a href="https://dl.acm.org/doi/10.1145/3600006.3613154">DOI</a>]
+            </small>
+          </p>
+          <p class="lead">
+            <b class="semi-bold">Multi-Target Invisibly Trojaned Networks for Visual Recognition and Detection</b><br>
+            <small>
+              Xinzhe Zhou, Wenhao Jiang, <b class="normal">Sheng Qi</b>, Yadong Mu<br>
+              IJCAI, 2021<br>
+              [<a href="https://www.ijcai.org/proceedings/2021/0477.pdf">PDF</a>]
+              [<a href="https://doi.org/10.24963/ijcai.2021/477">DOI</a>]
+            </small>
+          </p>
+        </div>
+
+        <div class="col-md-10">
+          <hr>
+          <h3>Teaching</h3>
+          <br>
           <ul class="lead">
-            <li> Log-Optimal Stateful Serverless
-              [<a href="files/SOSP23_Halfmoon_extended.pdf">Halfmoon, SOSP'23</a>]
-              [<a href="files/SOSP23_Halfmoon_extended.pdf">Extended Version</a>]
+            <li> Teaching Assistant,
+              <a href="files/SOSP23_Halfmoon_extended.pdf">Operating Systems (Honor Track)</a>,
+              PKU, Spring 2023
             </li>
           </ul>
-          <!-- </small></p> -->
-
         </div>
+
+        <div class="col-md-10">
+          <hr>
+          <h3>Experience</h3>
+          <br>
+          <ul class="lead">
+            <li> Research Intern, MOQI, Beijing<br>
+              <small>
+                Advised by <a href="https://chtlp.github.io/">Linpeng Tang</a><br>
+                2021.10 - 2022.02
+              </small>
+            </li>
+          </ul>
+        </div>
+
       </div>
 
       <!--<hr>
