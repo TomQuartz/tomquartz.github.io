@@ -124,7 +124,7 @@
               I received my B.S. degree (Summa Cum Laude) in artificial intelligence from Turing Class, Peking
               University, in 2022.
               My research interests include distributed systems, resource disaggregation, and their intersection with
-              serverless computing.
+              serverless computing and LLM serving.
               <br><br>
               <hr>
 
@@ -164,9 +164,36 @@
 
         <div class="col-md-10">
           <hr>
-          <h3>Publications</h3>
+          <h3>Selected Publications</h3>
           <br>
           <p class="lead">
+            <b class="semi-bold">KUBEDIRECT: Unleashing the Full Power of the Cluster Manager for Serverless Computing</b><br>
+            <small>
+              <b class="normal">Sheng Qi</b>, Zhiquan Zhang, Xuanzhe Liu, Xin Jin<br>
+              USENIX NSDI, 2026<br>
+              [<a href="https://arxiv.org/abs/2601.19160">PDF</a>]
+              [<a href="https://www.usenix.org/conference/nsdi26/presentation/qi">DOI</a>]
+            </small>
+            </p>
+            <p class="lead">
+              <b class="semi-bold">HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds</b><br>
+              <small>
+                Chiheng Lou, <b class="normal">Sheng Qi</b>, Chao Jin, Dapeng Nie, Haoran Yang, Xuanzhe Liu, Xin Jin<br>
+                USENIX NSDI, 2026<br>
+                [<a href="https://arxiv.org/abs/2502.15524">PDF</a>]
+                [<a href="https://www.usenix.org/conference/nsdi26/presentation/lou">DOI</a>]
+              </small>
+            </p>
+            <p class="lead">
+              <b class="semi-bold">Efficient Fault Tolerance for Stateful Serverless Computing with Asymmetric Logging</b><br>
+              <small>
+                <b class="normal">Sheng Qi</b>, Haoyu Feng, Xuanzhe Liu, Xin Jin<br>
+                ACM TOCS, 2025<br>
+                [<a href="files/TOCS25_AsymmLogging.pdf">PDF</a>]
+                [<a href="https://dl.acm.org/doi/10.1145/3725985">DOI</a>]
+              </small>
+            </p>
+            <!-- <p class="lead">
             <b class="semi-bold">Pyxis: Scheduling Mixed Tasks in Disaggregated Datacenters</b><br>
             <small>
               <b class="normal">Sheng Qi</b>, Chao Jin, Xuanzhe Liu, Xin Jin<br>
@@ -174,7 +201,7 @@
               [<a href="https://ieeexplore.ieee.org/document/10570339">PDF</a>]
               [<a href="https://doi.org/10.1109/TPDS.2024.3418620">DOI</a>]
             </small>
-          </p>
+          </p> -->
           <p class="lead">
             <b class="semi-bold">Halfmoon: Log-Optimal Fault-tolerant Stateful Serverless Computing</b><br>
             <small>
@@ -186,7 +213,7 @@
               [<a href="https://dl.acm.org/doi/10.1145/3600006.3613154">DOI</a>]
             </small>
           </p>
-          <p class="lead">
+          <!-- <p class="lead">
             <b class="semi-bold">Multi-Target Invisibly Trojaned Networks for Visual Recognition and Detection</b><br>
             <small>
               Xinzhe Zhou, Wenhao Jiang, <b class="normal">Sheng Qi</b>, Yadong Mu<br>
@@ -194,10 +221,10 @@
               [<a href="https://www.ijcai.org/proceedings/2021/0477.pdf">PDF</a>]
               [<a href="https://doi.org/10.24963/ijcai.2021/477">DOI</a>]
             </small>
-          </p>
+          </p> -->
         </div>
 
-        <div class="col-md-10">
+        <!-- <div class="col-md-10">
           <hr>
           <h3>Teaching</h3>
           <br>
@@ -207,17 +234,26 @@
               PKU, Spring 2023
             </li>
           </ul>
-        </div>
+        </div> -->
 
         <div class="col-md-10">
           <hr>
           <h3>Experience</h3>
           <br>
           <ul class="lead">
-            <li> Research Intern, MOQI, Beijing<br>
-              <small>
-                Advised by <a href="https://chtlp.github.io/">Linpeng Tang</a><br>
-                2021.10 - 2022.02
+            <li>Research Intern, WXG, Tencent<br>
+              <small>2025.5 - 2025.8
+                <ul>
+                  <li>Use Context Parallelism to optimize long sequence prefill</li>
+                  <li>2x speedup vs Tensor Parallelism and near-linear scaling with up to 32 GPUs</li>
+                </ul>
+              </small>
+            </li>
+            <li>Research Intern, PAI, Alibaba Cloud<br>
+              <small>2026.2 - present
+                <ul>
+                  <li>Load balancing across Qwen family models</li>
+                </ul>
               </small>
             </li>
           </ul>
